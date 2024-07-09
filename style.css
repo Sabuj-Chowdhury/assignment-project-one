@@ -116,6 +116,8 @@ body{
 /* Intro style END */
 
 
+
+
 /* why web section style START */
 
 .why-web-section-container{
@@ -126,6 +128,7 @@ body{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin: 0 auto;
+    margin-bottom:74px;
 }
 .why-web-content-container{
     width: 946px;
@@ -226,4 +229,67 @@ body{
     opacity: 0.7;
 }
 
-/* why web section style START */
+/* why web section style END */
+
+
+
+
+/* my inspiration Section style START */
+
+
+.my-inspiration-container{
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-bottom: 74px;
+}
+.my-inspiration-text-container{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+.my-inspiration-text-container h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 650;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.my-inspiration-text-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+}
+
+.my-inspiration-youtube-video-container{
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 38px 0px;
+
+}
+.my-inspiration-youtube-video{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+/* my inspiration Section style END */
