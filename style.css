@@ -51,3 +51,66 @@ body{
 }
 
 /* OPTIONAL heading END */
+
+
+/* Intro style START */
+
+.intro-background-container{
+    width: 1440px;
+    height: 652px;
+    /* border: 2px solid red; */
+    background-image: url(./images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 74px;
+}
+
+.intro-content-container{
+    width: 998px;
+    height: 582px;
+    /* border: 2px solid black; */
+    margin: 26px 221px 44px 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content-container h2{
+    margin: 14px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.intro-background-container p{
+    margin: 20px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.intro-content-container a{
+    text-decoration: none;
+    width: 198px;
+    height: 66px;
+    padding: 18px 20px 18px 20px;
+    /* margin: 22px 0px; */
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* Intro style END */
