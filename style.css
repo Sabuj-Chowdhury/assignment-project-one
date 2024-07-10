@@ -16,7 +16,7 @@ body{
 
 /* OPTIONAL heading START */
 
-.heading{
+.heading nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body{
     letter-spacing: 0%;
     text-align: left;
 }
-.heading>div>a{
+.heading>nav>div>a{
 
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -51,6 +51,10 @@ body{
 }
 
 /* OPTIONAL heading END */
+
+
+
+
 
 
 /* Intro style START */
@@ -282,7 +286,7 @@ body{
     margin: 38px 0px;
 
 }
-.my-inspiration-youtube-video{
+.my-inspiration-youtube-video iframe{
     width: 1076px;
     height: 550px;
     border-radius: 16px;
@@ -406,9 +410,9 @@ body{
     width: 284px;
     height: 219px;
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 .css-content h4{
     color: rgb(13, 19, 33);
@@ -454,9 +458,9 @@ align-items: flex-start;
     width: 284px;
     height: 219px;
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 .javascript-content h4{
     color: rgb(13, 19, 33);
@@ -514,7 +518,9 @@ align-items: flex-start;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7);
+    /* background: rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7); */
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
     margin-bottom: 74px;
 }
 .contact-content{
@@ -548,7 +554,6 @@ align-items: flex-start;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-
 }
 .email-submit-container{
     width: 684px;
@@ -565,8 +570,7 @@ align-items: flex-start;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
-
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 .email-submit-container input[type=submit]{
     width: 120px;
@@ -574,6 +578,11 @@ background: rgb(255, 255, 255);
     padding: 17px 20px 17px 20px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 
 }
 /* contact section styles END */
@@ -589,8 +598,7 @@ background: rgb(255, 255, 255);
     height: 100px;
     padding: 32px 150px 32px 150px;
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.03);
-    
+    background: rgba(13, 19, 33, 0.03); 
 }
 .footer-content{
     width: 1140px;
